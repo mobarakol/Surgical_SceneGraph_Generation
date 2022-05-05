@@ -44,8 +44,6 @@ class Args:
     prefetch = 0
     #others
     ckpt_dir = 'ckpt/model/'
-    clip_length = 1
-    seq_len = '7'
 
 
 def evaluation(det_indices, pred_node_labels, node_labels, y_true, y_score, test=False):
@@ -258,11 +256,10 @@ if __name__ == '__main__':
     start_time = time.time()
     args.cuda = not args.no_cuda and torch.cuda.is_available()
 
-    dataset = SurgicalDataset18(seq_set=[2, 3, 4, 6, 7, 9, 10, 11, 12, 14, 15], clip_length=args.clip_length,
-                                seq_len=args.seq_len, is_train=True)
+    dataset = SurgicalDataset18(seq_set=[2, 3, 4, 6, 7, 9, 10, 11, 12, 14, 15], is_train=True)
     train_loader = DataLoader(dataset=dataset, batch_size=args.batch_size, shuffle=True, num_workers=2, drop_last=True)
 
-    dataset_valid = SurgicalDataset18(seq_set=[1, 5, 16], clip_length=args.clip_length, seq_len=args.seq_len, is_train=True)
+    dataset_valid = SurgicalDataset18(seq_set=[1, 5, 16], is_train=True)
     valid_loader = DataLoader(dataset=dataset_valid, batch_size=args.batch_size, shuffle=False, num_workers=2, drop_last=True)
 
     message_size = int(edge_feature_size/2)*2

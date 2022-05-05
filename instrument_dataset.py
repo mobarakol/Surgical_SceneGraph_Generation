@@ -22,7 +22,7 @@ ACTION_CLASSES = (
 
 
 class SurgicalDataset18(Dataset):
-    def __init__(self, seq_set, clip_length, seq_len, is_train=None):
+    def __init__(self, seq_set, is_train=None):
         self.is_train = is_train
         self.list = seq_set
         self.dir_root_gt = 'instruments18/seq_'
