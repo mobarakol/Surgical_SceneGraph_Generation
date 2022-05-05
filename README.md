@@ -9,13 +9,10 @@ To improve the model calibration, we integrated label smoothing by following thi
 
 # Dataset
 
-## Training Data
-Will be releasing soon!! 
+Tool-tissue interaction graph annotation on 2018 Robotic Scene Segmentation Challenge dataset can be downloaded from [google drive](https://drive.google.com/file/d/16G_Pf4E9KjVq7j_7BfBKHg0NyQQ0oTxP/view). The xml contains both bounding box annotation and intraction class annotation.
+Please note that video sequences of 1, 5 and 16 are used for validation and remaining sequences for training.
 
-## Evaluation Data
-Download from **[[`Dataset Link`](https://drive.google.com/file/d/1OwWfgBZE0W5grXVaQN63VUUaTvufEmW0/view?usp=sharing)]** and place it inside the repository root and unzip 
-
-The features of the evaluation data is not from this paper. You can follow our [ICRA+RA-L2022 paper](**[ [```arXiv```](<https://arxiv.org/abs/2201.11957>) ]** |**[ [```Paper```](<https://ieeexplore.ieee.org/document/9695281>) ]** ) to get information about feature extraction.
+For more information you can check our also. [ICRA+RA-L2022 paper](**[ [```arXiv```](<https://arxiv.org/abs/2201.11957>) ]** |**[ [```Paper```](<https://ieeexplore.ieee.org/document/9695281>) ]** ).
 
 
 ## Citation
