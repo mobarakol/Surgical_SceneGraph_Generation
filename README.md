@@ -12,7 +12,7 @@ To improve the model calibration, we integrated label smoothing by following thi
 Tool-tissue interaction graph annotation on [2018 Robotic Scene Segmentation Challenge dataset](https://arxiv.org/abs/2001.11190) can be downloaded from [google drive](https://drive.google.com/file/d/16G_Pf4E9KjVq7j_7BfBKHg0NyQQ0oTxP/view). The xml contains both bounding box annotation and intraction class annotation.
 Please note that video sequences of 1, 5 and 16 are used for validation and remaining sequences for training.
 
-An interactive Colab notebook can be found on how to read the annotation of bounding box and tool-tissue interaction class (https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/mobarakol/Surgical_SceneGraph_Generation/blob/main/reading_dataset.ipynb)
+An interactive Colab notebook can be found on how to read the annotation of bounding box and tool-tissue interaction class [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/mobarakol/Surgical_SceneGraph_Generation/blob/main/reading_dataset.ipynb)
 
 For more information you can check our also. [ICRA+RA-L2022 paper](**[ [```arXiv```](<https://arxiv.org/abs/2201.11957>) ]** |**[ [```Paper```](<https://ieeexplore.ieee.org/document/9695281>) ]** ).
 
