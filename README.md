@@ -14,8 +14,9 @@ Please note that video sequences of 1, 5 and 16 are used for validation and rema
 
 An interactive Colab notebook can be found on how to read the annotation of bounding box and tool-tissue interaction class [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/mobarakol/Surgical_SceneGraph_Generation/blob/main/reading_dataset.ipynb)
 
-For more information you can check our also. [ICRA+RA-L2022 paper](**[ [```arXiv```](<https://arxiv.org/abs/2201.11957>) ]** |**[ [```Paper```](<https://ieeexplore.ieee.org/document/9695281>) ]** ).
+For more information you can check our also. [ICRA+RA-L2022 paper](**[ [```preprint```](<https://arxiv.org/abs/2201.11957>) ]** |**[ [```Paper```](<https://ieeexplore.ieee.org/document/9695281>) ]** ).
 
+Original paper for bounding box annotation can be found in [ICRA2020 paper](**[ [```preprint```](<https://arxiv.org/pdf/2003.04769.pdf>) ]** |**[ [```Paper```](<https://ieeexplore.ieee.org/abstract/document/9196905>) ]** ).
 
 ## Citation
 The paper can be cited by using below bibtex.
