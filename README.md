@@ -53,6 +53,7 @@ features of each node are updated by the update node. The readout function predi
 
 - Images: Left camera images from [2018 robotic scene segmentation challenge](https://arxiv.org/pdf/2001.11190.pdf) are used in this work.
 - Bounding Box and interaction: [Our annotations](https://drive.google.com/file/d/16G_Pf4E9KjVq7j_7BfBKHg0NyQQ0oTxP/view?usp=sharing) (Cite this paper when using these annotations.)
+- An interactive Colab notebook can be found on how to read the annotation of bounding box and tool-tissue interaction class [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/mobarakol/Surgical_SceneGraph_Generation/blob/main/reading_dataset.ipynb)
 
 ## Feature Extraction:
 
