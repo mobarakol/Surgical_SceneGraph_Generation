@@ -70,7 +70,7 @@ class LinkFunction(torch.nn.Module):
             self.learn_modules.append(torch.nn.ReLU())
             self.learn_modules.append(torch.nn.Dropout())
         for _ in range(self.args['link_hidden_layers']-1):
-            self.learn_modules.append(SCSEBlock(self.args['edge_feature_size']))
+            self.learn_modules.append(SEBlock(self.args['edge_feature_size']))
             self.learn_modules.append(torch.nn.Conv2d(input_size, hidden_size, 1))
             self.learn_modules.append(torch.nn.ReLU())
 
